@@ -1,0 +1,369 @@
+body{
+    margin: 0;
+}
+
+.header{
+    width:100%;
+    height: 64px;
+    background-color: rgb(51, 53, 69);
+}
+
+.logo{
+    width: 18%;
+    float: left;
+}
+
+.search{
+    width: 50%;
+    float: left;
+}
+
+.sign{
+    width: 25%;
+    float: left;
+}
+
+.logo-img{
+    width: 118px;
+    margin-left: 53%;
+    margin-top: 13px;
+}
+
+.search-bar{
+    display: flex;
+    margin-inline: 11px;
+    max-width: 549px;
+    margin-top: 16px;
+    height: 33px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #fff;
+    align-items: center;
+}
+
+.search-bar input{
+    background: transparent;
+    outline: none;
+    border: 0;
+    width: 549px;
+    text-decoration-color: rgb(171, 170, 170);
+    font-size: 14px;
+}
+
+.search-bar button{
+    background: transparent;
+    width: 39px;
+    height: 34px;
+    border: 0;
+}
+
+.sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.location{
+    max-width: 100px;
+    margin-left: 120px;
+
+}
+
+.location-text{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-right: 24px;
+    border: 0;
+}
+
+.sign-in{
+    max-width: 200px;
+}
+
+.sign-bar{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-right: 24px;
+    background-color: rgb(248, 68, 100);
+    border-radius: 4px;
+    border: 0;
+    width: 67px;
+    height: 25px;
+}
+
+.sign-button{
+    background: transparent;
+    border: 0;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 14px;
+}
+
+.option{
+    background: transparent;
+    border: 0;
+}
+
+.sub-header{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(34, 37, 57);
+}
+
+.events-list{
+    width: 60%;
+    float: left;
+    height: 100%;
+}
+
+.event-list-align{
+    margin-top: 12px;
+    margin-left: 145px;
+}
+
+.offer{
+    width: 40%;
+    float: right;
+    height: 100%;
+}
+
+.offer-align{
+    margin-top: 12px;
+    margin-left: 177px;
+}
+
+.left-subheader-names{
+    font-size: 14px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+.new{
+    font-size: 8px;
+    color: rgb(231, 54, 77);
+    font-weight: 500;
+    position: absolute;
+    left: 250px;
+    bottom: 89%;
+    float: left;
+}
+
+.right-subheader-names{
+    font-size: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    text-decoration: none;
+    color:#fff;
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.ads{
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.img{
+    margin: 10px 10px 10px 10px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.main{
+    margin-left: 138px;
+    margin-right: 138px;
+}
+
+.first-section{
+    margin-left: 63px;
+    margin-bottom: 63px;
+}
+
+.heading-font{
+    font-family: roboto,sans-serif;
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 7px;
+}
+
+.movie-names-img{
+    margin-left: -10px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+.program-img{
+    height: auto;
+    width:225px;
+    border-radius: 7px;
+}
+
+.movies-name-and-img {
+    margin-left: -10px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+.program-img {
+    height: auto;
+    width: 225px;
+    border-radius: 7px;
+    transition: 0.5s;
+    padding-left: 25px;
+}
+
+.program-img:hover {
+    margin-top: -10px;
+}
+
+.movie-name-recommended, .program-name{
+    font-family: sans-serif;
+    margin: 0px 0px 4px;
+    font-size: 18px;
+    color: #222222;
+    font-weight: 700;
+    line-height: 1.33;
+    padding-left: 26px;
+}
+
+.movie-genres-recommended, .program-type {
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    padding-left: 26px;
+}
+
+.endless-entertainment {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.endless-entertainment-img{
+    width: 95%;
+    height: 107px;
+}
+
+.live-event-img{
+    width: 216px;
+    height: auto;
+    margin-right: 28px;
+    border-radius: 6px;
+}
+
+footer{
+    background-color: rgb(49, 48, 53);
+    height: auto;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.footer-div{
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.footer-top-layer{
+    display: flex;
+    padding-top: 18px;
+    align-items: center;
+}
+
+.footer-logo-book{
+    width: 100px;
+}
+
+.footer-lines{
+    font-family: sans-serif;
+}
+
+.services{
+    width: 100%;
+    height: 100px;
+    background-color: #5d5d5d40;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.service-text{
+    text-decoration: none;
+    padding-left: 225px;
+    color: #5d5d5d;
+    font-family: sans-serif;
+    font-size: 11px;
+    
+
+}
+
+.footer-top-layer :nth-child(2){
+    flex: 0 0 auto;
+    margin: 0px 16px 0px 4px;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+}
+.footer-top-layer :nth-child(3){
+    flex: 0 0 auto;
+    margin: 0px 16px 0px 4px;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    margin-right: 150px;
+}
+.contact-button{
+    margin: auto;
+    flex: 0 0 auto;
+    background-color: rgb(236, 94, 113);
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footer-logo{
+    margin-top: 100px;
+    padding-bottom: 80px;
+    display: flex;
+}
+.footer-logo :nth-child(2){
+    margin-top: -15px;
+}
+.draw-line-left{
+    height: 1px;
+    width: 50%;
+    background: rgb(93, 93, 95);
+}
+.draw-line-right{
+    height: 1px;
+    width: 50%;
+    background: rgb(93, 93, 95);
+}
+
+.social-media{
+    margin-left: 40%;
+}
+
+.media{
+    max-width: 31px;
+    padding-left: 14px;
+}
+
+.copyrights{
+    padding: 30px;
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    font-family: sans-serif;
+}
